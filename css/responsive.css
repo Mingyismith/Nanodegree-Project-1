@@ -1,0 +1,45 @@
+body ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+@media screen and (max-width:399px){
+    .header_title {
+    font-size:1.5em;
+    padding-bottom: 30px;
+    }
+
+    .header_sub_title{
+      display: none;
+    }
+
+    .project_title{
+    font-size:20px;
+    text-align: center;
+    }
+
+    footer li {
+      font-size:10px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:499px){
+    .header_title {
+    font-size:2em;
+    }
+
+    .project_title{
+    font-size:2em;
+    }
+
+    .project_img_title{
+    font-size: 14px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .header_title {
+    font-size: 3em;
+    }
+}
